@@ -1,5 +1,5 @@
 {% set name = "qcelemental" %}
-{% set version = "0.1.3" %}
+{% set version = "0.2.0" %}
 {% set sha256 = "8408f30e4dd021fa61cd777685f4a8f679caf722535fdccf3e8d51822357238e" %}
 
 package:
@@ -22,6 +22,7 @@ requirements:
     run:
         - numpy
         - pint
+        - pydantic
         - python
 
 test:
@@ -31,7 +32,7 @@ test:
         - deepdiff
         - pytest
     commands:
-        - py.test --pyargs qcelemental
+        - pytest --pyargs qcelemental
 
 about:
     home: https://github.com/MolSSI/QCElemental
