@@ -22,7 +22,7 @@ requirements:
     run:
         - numpy
         - pint
-        - pydantic >= 0.18
+        - pydantic >=0.18.*
         - python
 
 test:
