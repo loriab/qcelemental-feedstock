@@ -17,13 +17,13 @@ build:
 
 requirements:
     host:
-        - python
+        - python >= 3.6
         - pip
     run:
         - numpy
         - pint
         - pydantic >=0.20.*
-        - python
+        - python >= 3.6
 
 test:
     imports:
