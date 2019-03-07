@@ -1,6 +1,6 @@
 {% set name = "qcelemental" %}
-{% set version = "0.3.0" %}
-{% set sha256 = "20614b7664bd55bd37ec9c8206d5a22e0d6b823df2f3a3e210b693db953a9d41" %}
+{% set version = "0.3.1" %}
+{% set sha256 = "9a18ece5ad63ab02d17a8b0532508235f225a768a2e77591a1b9b917e8f32146" %}
 
 package:
     name: {{ name|lower }}
@@ -17,13 +17,13 @@ build:
 
 requirements:
     host:
-        - python
+        - python >=3.6
         - pip
     run:
         - numpy
         - pint
         - pydantic >=0.20.*
-        - python
+        - python >=3.6
 
 test:
     imports:
