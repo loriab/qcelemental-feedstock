@@ -29,7 +29,10 @@ test:
     imports:
         - qcelemental
     requires:
+        - networkx
+        - py3dmol
         - pytest
+        - scipy
     commands:
         - pytest --pyargs qcelemental
 
