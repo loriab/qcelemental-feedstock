@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About qcelemental
 =================
 
@@ -18,8 +14,17 @@ Summary: QCElemental is a resource module for quantum chemistry containing physi
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/qcelemental-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/qcelemental-feedstock)
+
+<table><tr>
+    
+    <td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2617&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/qcelemental-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
@@ -114,5 +119,6 @@ Feedstock Maintainers
 =====================
 
 * [@dgasmith](https://github.com/dgasmith/)
+* [@lnaden](https://github.com/lnaden/)
 * [@loriab](https://github.com/loriab/)
 
