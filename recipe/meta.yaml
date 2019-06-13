@@ -1,6 +1,6 @@
 {% set name = "qcelemental" %}
-{% set version = "0.4.1" %}
-{% set sha256 = "327d0a2854dc5696b8802ac904be8509ce8bfc6138060d7b1de1fb3cdfe25e53" %}
+{% set version = "0.4.2" %}
+{% set sha256 = "96f5f1b1274a8e5e549982e6349a704091de76fee00b0084e3669e7c47231a7e" %}
 
 package:
     name: {{ name|lower }}
@@ -16,7 +16,7 @@ build:
     script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
-    host:
+    host:   
         - python >=3.6
         - pip
     run:
