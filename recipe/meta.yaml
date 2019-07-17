@@ -1,6 +1,6 @@
 {% set name = "qcelemental" %}
-{% set version = "0.4.2" %}
-{% set sha256 = "96f5f1b1274a8e5e549982e6349a704091de76fee00b0084e3669e7c47231a7e" %}
+{% set version = "0.5.0" %}
+{% set sha256 = "e8cef01b9608c744753355ab62744ccc0aeeabb3ab5c11513d9e66d95d0e4a03" %}
 
 package:
     name: {{ name|lower }}
@@ -22,7 +22,7 @@ requirements:
     run:
         - numpy
         - pint
-        - pydantic >=0.20.*
+        - pydantic >=0.30.1
         - python >=3.6
 
 test:
@@ -31,7 +31,7 @@ test:
     requires:
         - networkx
         - py3dmol
-        - pytest
+        - pytest >=4.0.0
         - scipy
     commands:
         - pytest --pyargs qcelemental
