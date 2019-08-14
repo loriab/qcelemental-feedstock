@@ -1,6 +1,6 @@
 {% set name = "qcelemental" %}
-{% set version = "0.5.0" %}
-{% set sha256 = "e8cef01b9608c744753355ab62744ccc0aeeabb3ab5c11513d9e66d95d0e4a03" %}
+{% set version = "0.6.0" %}
+{% set sha256 = "19bc7418b38495c466eb1d129506ce065a7c8fdaa30ae295c565d61948fe8373" %}
 
 package:
     name: {{ name|lower }}
@@ -22,7 +22,7 @@ requirements:
     run:
         - numpy
         - pint
-        - pydantic >=0.30.1
+        - pydantic >=0.32
         - python >=3.6
 
 test:
