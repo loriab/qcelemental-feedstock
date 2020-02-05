@@ -119,4 +119,5 @@ Feedstock Maintainers
 * [@dgasmith](https://github.com/dgasmith/)
 * [@lnaden](https://github.com/lnaden/)
 * [@loriab](https://github.com/loriab/)
+* [@mattwelborn](https://github.com/mattwelborn/)
 
