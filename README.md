@@ -3,13 +3,15 @@ About qcelemental
 
 Home: https://github.com/MolSSI/QCElemental
 
-Package license: BSD-3-Clause
+Package license: [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause)
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/qcelemental-feedstock/blob/master/LICENSE.txt)
 
 Summary: QCElemental is a resource module for quantum chemistry containing physical constants and periodic table data from NIST and molecule handlers.
 
+Development: https://github.com/MolSSI/QCElemental
 
+Documentation: https://qcelemental.readthedocs.io/en/latest/
 
 Current build status
 ====================
