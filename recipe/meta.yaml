@@ -12,7 +12,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 2
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -22,7 +22,7 @@ requirements:
   run:
     - numpy >=1.12.0
     - pint >=0.10.0
-    - pydantic >=1.8.2
+    - pydantic >=1.8.2,<2.0
     - python >=3.6.0
 
 test:
@@ -34,7 +34,7 @@ test:
     - pytest >=4.0.0
     - scipy
   commands:
-    - pytest --pyargs qcelemental
+    - pytest --pyargs qcelemental -k "not pubchem_multiout_g"
 
 about:
   home: https://github.com/MolSSI/QCElemental

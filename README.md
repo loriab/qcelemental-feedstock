@@ -1,11 +1,11 @@
-About qcelemental
-=================
+About qcelemental-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/qcelemental-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/MolSSI/QCElemental
 
 Package license: [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause)
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/qcelemental-feedstock/blob/main/LICENSE.txt)
 
 Summary: QCElemental is a resource module for quantum chemistry containing physical constants and periodic table data from NIST and molecule handlers.
 
