@@ -11,7 +11,7 @@ Summary: QCElemental is a resource module for quantum chemistry containing physi
 
 Development: https://github.com/MolSSI/QCElemental
 
-Documentation: https://qcelemental.readthedocs.io/en/latest/
+Documentation: https://molssi.github.io/QCElemental/
 
 Current build status
 ====================
