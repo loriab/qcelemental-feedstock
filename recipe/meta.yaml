@@ -1,6 +1,6 @@
 {% set name = "qcelemental" %}
-{% set version = "0.26.0" %}
-{% set sha256 = "a14e8510cdbfda645ef1461c1afd02efb599311733dbba5f83fcd1d6168a6ddd" %}
+{% set version = "0.27.0" %}
+{% set sha256 = "e552cd183e2094020682db7eabc62fc32010bc953d99fc93a6783056bea03988" %}
 
 package:
   name: {{ name|lower }}
