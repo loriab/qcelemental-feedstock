@@ -1,6 +1,6 @@
 {% set name = "qcelemental" %}
-{% set version = "0.28.0" %}
-{% set sha256 = "da96fddb88c1701f812b25369a6a169d35f2d5446c37c62e86048cb0f1b168a2" %}
+{% set version = "0.29.0" %}
+{% set sha256 = "bf634ee652e7d95e906e291989513224233b1d705c26afeac86e451f316b3c04" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -20,6 +20,7 @@ requirements:
     - python >=3.7
     - pip
     - poetry-core >=1.2.0
+    - packaging
   run:
     - numpy
     - pint
