@@ -27,7 +27,6 @@ requirements:
     - python >=3.8
 ]
 
-
 test:
   imports:
     - qcelemental
@@ -38,6 +37,8 @@ test:
     - scipy
   commands:
     - pytest --pyargs qcelemental -k "not pubchem_multiout_g"
+    - pip check
+    - python -c "import qcelemental as qc;assert qc.__version__ == '{{ version }}', f'{qc.__version__=} differs from recipe=\'{{ version }}\''"
 
 about:
   home: https://github.com/MolSSI/QCElemental
