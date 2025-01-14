@@ -1,5 +1,5 @@
 {% set name = "qcelemental" %}
-{% set version = "0.29.0" %}
+{% set version = "0.50b1" %}
 {% set sha256 = "bf634ee652e7d95e906e291989513224233b1d705c26afeac86e451f316b3c04" %}
 
 package:
@@ -17,15 +17,16 @@ build:
 
 requirements:
   host:
-    - python >=3.7
+    - python >=3.8
     - pip
-    - poetry-core >=1.2.0
     - packaging
   run:
     - numpy
     - pint
-    - pydantic >=1.8.2
-    - python >=3.7
+    - pydantic >=2.0
+    - python >=3.8
+]
+
 
 test:
   imports:
