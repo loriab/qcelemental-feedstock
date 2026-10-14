@@ -1,6 +1,6 @@
 {% set name = "qcelemental" %}
-{% set version = "0.51.2" %}
-{% set sha256 = "8558f304df08ce400958e6ae6d632e43ef61ccca463c9e8df4f265b4a6195e79" %}
+{% set version = "0.51.3" %}
+{% set sha256 = "c6f1e42cec8bc08552aefba4260ce9e2d8dab3cdf2a0114303999528bf21aa0d" %}
 
 package:
   name: {{ name|lower }}
@@ -28,7 +28,7 @@ requirements:
     - python >={{ python_min }}
   run_constrained:
     - qcmanybody >=0.7.1
-    # - nglview >=4.0
+    - nglview >=4.0
 
 test:
   imports:
